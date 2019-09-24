@@ -2,7 +2,7 @@ package Heranca2;
 
 public class Pessoa {
 
-	public String nome, cpf, endereco, telefone;
+	public static  String nome, cpf, endereco, telefone;
 
 	public void imprimirCadastro(){
 		System.out.println (nome);
